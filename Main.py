@@ -99,9 +99,13 @@ def crear_tabla_comparativa(df_4bits, df_8bits, carpeta_resultados, ejecucion_nu
     fig, ax = plt.subplots(figsize=(12, 4))  # Tamaño de la imagen
     ax.axis('tight')
     ax.axis('off')
-    ax.table(cellText=df_comparativa.values, colLabels=df_comparativa.columns, cellLoc='center', loc='center')
-    
-    plt.savefig(os.path.join(carpeta_resultados, f'Tabla_Comparativa_Ejecucion_{ejecucion_numero}.png'), bbox_inches='tight')
+    table = ax.table(cellText=df_comparativa.values, colLabels=df_comparativa.columns, cellLoc='center', loc='center')
+
+    # Establecer el tamaño de las celdas
+    table.scale(1, 1.5)  # Ajustar la altura de las celdas para que el texto se vea mejor
+
+    # Guardar la figura con mayor resolución
+    plt.savefig(os.path.join(carpeta_resultados, f'Tabla_Comparativa_Ejecucion_{ejecucion_numero}.png'), bbox_inches='tight', dpi=300)
     plt.close()
 
 # Función para crear la carpeta de resultados
