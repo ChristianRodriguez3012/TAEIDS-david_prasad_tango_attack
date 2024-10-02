@@ -3,7 +3,7 @@
 | **Autor**                                 | **Correo**                       | **Institución**                    |
 |-------------------------------------------|----------------------------------|-------------------------------------|
 | Christian Omar Rodriguez Huamanñahui      | crodriguezh@ulasalle.edu.pe      | Universidad La Salle Arequipa      |
-|
+
 
 ## Introducción
 
