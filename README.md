@@ -3,7 +3,6 @@
 | **Autor**                                 | **Correo**                       | **Institución**                    |
 |-------------------------------------------|----------------------------------|-------------------------------------|
 | Christian Omar Rodriguez Huamanñahui      | crodriguezh@ulasalle.edu.pe      | Universidad La Salle Arequipa      |
-| Jose Carlos Peraltilla Nuñez             | jperaltillan@ulasalle.edu.pe     | Universidad La Salle Arequipa      |
 | Pedro Humberto Rondon Ponce               | prondonp@ulasalle.edu.pe         | Universidad La Salle Arequipa      |
 
 
